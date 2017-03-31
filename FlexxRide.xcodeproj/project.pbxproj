@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005FD7AD1E8E9CC6000E6FE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FD7AC1E8E9CC6000E6FE8 /* AppDelegate.swift */; };
+		005FD7AF1E8E9CC6000E6FE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FD7AE1E8E9CC6000E6FE8 /* ViewController.swift */; };
+		005FD7B21E8E9CC6000E6FE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005FD7B01E8E9CC6000E6FE8 /* Main.storyboard */; };
+		005FD7B51E8E9CC6000E6FE8 /* FlexxRide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 005FD7B31E8E9CC6000E6FE8 /* FlexxRide.xcdatamodeld */; };
+		005FD7B71E8E9CC6000E6FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 005FD7B61E8E9CC6000E6FE8 /* Assets.xcassets */; };
+		005FD7BA1E8E9CC6000E6FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005FD7B81E8E9CC6000E6FE8 /* LaunchScreen.storyboard */; };
+		005FD7C51E8E9CC6000E6FE8 /* FlexxRideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FD7C41E8E9CC6000E6FE8 /* FlexxRideTests.swift */; };
+		005FD7D01E8E9CC6000E6FE8 /* FlexxRideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FD7CF1E8E9CC6000E6FE8 /* FlexxRideUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		005FD7C11E8E9CC6000E6FE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 005FD7A11E8E9CC6000E6FE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 005FD7A81E8E9CC6000E6FE8;
+			remoteInfo = FlexxRide;
+		};
+		005FD7CC1E8E9CC6000E6FE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 005FD7A11E8E9CC6000E6FE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 005FD7A81E8E9CC6000E6FE8;
+			remoteInfo = FlexxRide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005FD7A91E8E9CC6000E6FE8 /* FlexxRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexxRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		005FD7AC1E8E9CC6000E6FE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		005FD7AE1E8E9CC6000E6FE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		005FD7B11E8E9CC6000E6FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		005FD7B41E8E9CC6000E6FE8 /* FlexxRide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlexxRide.xcdatamodel; sourceTree = "<group>"; };
+		005FD7B61E8E9CC6000E6FE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		005FD7B91E8E9CC6000E6FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		005FD7BB1E8E9CC6000E6FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005FD7C01E8E9CC6000E6FE8 /* FlexxRideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexxRideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		005FD7C41E8E9CC6000E6FE8 /* FlexxRideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexxRideTests.swift; sourceTree = "<group>"; };
+		005FD7C61E8E9CC6000E6FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005FD7CB1E8E9CC6000E6FE8 /* FlexxRideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexxRideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		005FD7CF1E8E9CC6000E6FE8 /* FlexxRideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexxRideUITests.swift; sourceTree = "<group>"; };
+		005FD7D11E8E9CC6000E6FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		005FD7A61E8E9CC6000E6FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005FD7BD1E8E9CC6000E6FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005FD7C81E8E9CC6000E6FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		005FD7A01E8E9CC6000E6FE8 = {
+			isa = PBXGroup;
+			children = (
+				005FD7AB1E8E9CC6000E6FE8 /* FlexxRide */,
+				005FD7C31E8E9CC6000E6FE8 /* FlexxRideTests */,
+				005FD7CE1E8E9CC6000E6FE8 /* FlexxRideUITests */,
+				005FD7AA1E8E9CC6000E6FE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		005FD7AA1E8E9CC6000E6FE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				005FD7A91E8E9CC6000E6FE8 /* FlexxRide.app */,
+				005FD7C01E8E9CC6000E6FE8 /* FlexxRideTests.xctest */,
+				005FD7CB1E8E9CC6000E6FE8 /* FlexxRideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		005FD7AB1E8E9CC6000E6FE8 /* FlexxRide */ = {
+			isa = PBXGroup;
+			children = (
+				005FD7AC1E8E9CC6000E6FE8 /* AppDelegate.swift */,
+				005FD7AE1E8E9CC6000E6FE8 /* ViewController.swift */,
+				005FD7B01E8E9CC6000E6FE8 /* Main.storyboard */,
+				005FD7B61E8E9CC6000E6FE8 /* Assets.xcassets */,
+				005FD7B81E8E9CC6000E6FE8 /* LaunchScreen.storyboard */,
+				005FD7BB1E8E9CC6000E6FE8 /* Info.plist */,
+				005FD7B31E8E9CC6000E6FE8 /* FlexxRide.xcdatamodeld */,
+			);
+			path = FlexxRide;
+			sourceTree = "<group>";
+		};
+		005FD7C31E8E9CC6000E6FE8 /* FlexxRideTests */ = {
+			isa = PBXGroup;
+			children = (
+				005FD7C41E8E9CC6000E6FE8 /* FlexxRideTests.swift */,
+				005FD7C61E8E9CC6000E6FE8 /* Info.plist */,
+			);
+			path = FlexxRideTests;
+			sourceTree = "<group>";
+		};
+		005FD7CE1E8E9CC6000E6FE8 /* FlexxRideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				005FD7CF1E8E9CC6000E6FE8 /* FlexxRideUITests.swift */,
+				005FD7D11E8E9CC6000E6FE8 /* Info.plist */,
+			);
+			path = FlexxRideUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		005FD7A81E8E9CC6000E6FE8 /* FlexxRide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 005FD7D41E8E9CC6000E6FE8 /* Build configuration list for PBXNativeTarget "FlexxRide" */;
+			buildPhases = (
+				005FD7A51E8E9CC6000E6FE8 /* Sources */,
+				005FD7A61E8E9CC6000E6FE8 /* Frameworks */,
+				005FD7A71E8E9CC6000E6FE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlexxRide;
+			productName = FlexxRide;
+			productReference = 005FD7A91E8E9CC6000E6FE8 /* FlexxRide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		005FD7BF1E8E9CC6000E6FE8 /* FlexxRideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 005FD7D71E8E9CC6000E6FE8 /* Build configuration list for PBXNativeTarget "FlexxRideTests" */;
+			buildPhases = (
+				005FD7BC1E8E9CC6000E6FE8 /* Sources */,
+				005FD7BD1E8E9CC6000E6FE8 /* Frameworks */,
+				005FD7BE1E8E9CC6000E6FE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				005FD7C21E8E9CC6000E6FE8 /* PBXTargetDependency */,
+			);
+			name = FlexxRideTests;
+			productName = FlexxRideTests;
+			productReference = 005FD7C01E8E9CC6000E6FE8 /* FlexxRideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		005FD7CA1E8E9CC6000E6FE8 /* FlexxRideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 005FD7DA1E8E9CC6000E6FE8 /* Build configuration list for PBXNativeTarget "FlexxRideUITests" */;
+			buildPhases = (
+				005FD7C71E8E9CC6000E6FE8 /* Sources */,
+				005FD7C81E8E9CC6000E6FE8 /* Frameworks */,
+				005FD7C91E8E9CC6000E6FE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				005FD7CD1E8E9CC6000E6FE8 /* PBXTargetDependency */,
+			);
+			name = FlexxRideUITests;
+			productName = FlexxRideUITests;
+			productReference = 005FD7CB1E8E9CC6000E6FE8 /* FlexxRideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		005FD7A11E8E9CC6000E6FE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Cesa Salaam";
+				TargetAttributes = {
+					005FD7A81E8E9CC6000E6FE8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y3ESD59NKS;
+						ProvisioningStyle = Automatic;
+					};
+					005FD7BF1E8E9CC6000E6FE8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y3ESD59NKS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 005FD7A81E8E9CC6000E6FE8;
+					};
+					005FD7CA1E8E9CC6000E6FE8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y3ESD59NKS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 005FD7A81E8E9CC6000E6FE8;
+					};
+				};
+			};
+			buildConfigurationList = 005FD7A41E8E9CC6000E6FE8 /* Build configuration list for PBXProject "FlexxRide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 005FD7A01E8E9CC6000E6FE8;
+			productRefGroup = 005FD7AA1E8E9CC6000E6FE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				005FD7A81E8E9CC6000E6FE8 /* FlexxRide */,
+				005FD7BF1E8E9CC6000E6FE8 /* FlexxRideTests */,
+				005FD7CA1E8E9CC6000E6FE8 /* FlexxRideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		005FD7A71E8E9CC6000E6FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005FD7BA1E8E9CC6000E6FE8 /* LaunchScreen.storyboard in Resources */,
+				005FD7B71E8E9CC6000E6FE8 /* Assets.xcassets in Resources */,
+				005FD7B21E8E9CC6000E6FE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005FD7BE1E8E9CC6000E6FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005FD7C91E8E9CC6000E6FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		005FD7A51E8E9CC6000E6FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005FD7AF1E8E9CC6000E6FE8 /* ViewController.swift in Sources */,
+				005FD7AD1E8E9CC6000E6FE8 /* AppDelegate.swift in Sources */,
+				005FD7B51E8E9CC6000E6FE8 /* FlexxRide.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005FD7BC1E8E9CC6000E6FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005FD7C51E8E9CC6000E6FE8 /* FlexxRideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005FD7C71E8E9CC6000E6FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005FD7D01E8E9CC6000E6FE8 /* FlexxRideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		005FD7C21E8E9CC6000E6FE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 005FD7A81E8E9CC6000E6FE8 /* FlexxRide */;
+			targetProxy = 005FD7C11E8E9CC6000E6FE8 /* PBXContainerItemProxy */;
+		};
+		005FD7CD1E8E9CC6000E6FE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 005FD7A81E8E9CC6000E6FE8 /* FlexxRide */;
+			targetProxy = 005FD7CC1E8E9CC6000E6FE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		005FD7B01E8E9CC6000E6FE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				005FD7B11E8E9CC6000E6FE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		005FD7B81E8E9CC6000E6FE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				005FD7B91E8E9CC6000E6FE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		005FD7D21E8E9CC6000E6FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		005FD7D31E8E9CC6000E6FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		005FD7D51E8E9CC6000E6FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y3ESD59NKS;
+				INFOPLIST_FILE = FlexxRide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cesaApps.FlexxRide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		005FD7D61E8E9CC6000E6FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y3ESD59NKS;
+				INFOPLIST_FILE = FlexxRide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cesaApps.FlexxRide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		005FD7D81E8E9CC6000E6FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y3ESD59NKS;
+				INFOPLIST_FILE = FlexxRideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cesaApps.FlexxRideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlexxRide.app/FlexxRide";
+			};
+			name = Debug;
+		};
+		005FD7D91E8E9CC6000E6FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y3ESD59NKS;
+				INFOPLIST_FILE = FlexxRideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cesaApps.FlexxRideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlexxRide.app/FlexxRide";
+			};
+			name = Release;
+		};
+		005FD7DB1E8E9CC6000E6FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y3ESD59NKS;
+				INFOPLIST_FILE = FlexxRideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cesaApps.FlexxRideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FlexxRide;
+			};
+			name = Debug;
+		};
+		005FD7DC1E8E9CC6000E6FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y3ESD59NKS;
+				INFOPLIST_FILE = FlexxRideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cesaApps.FlexxRideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FlexxRide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		005FD7A41E8E9CC6000E6FE8 /* Build configuration list for PBXProject "FlexxRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005FD7D21E8E9CC6000E6FE8 /* Debug */,
+				005FD7D31E8E9CC6000E6FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		005FD7D41E8E9CC6000E6FE8 /* Build configuration list for PBXNativeTarget "FlexxRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005FD7D51E8E9CC6000E6FE8 /* Debug */,
+				005FD7D61E8E9CC6000E6FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		005FD7D71E8E9CC6000E6FE8 /* Build configuration list for PBXNativeTarget "FlexxRideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005FD7D81E8E9CC6000E6FE8 /* Debug */,
+				005FD7D91E8E9CC6000E6FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		005FD7DA1E8E9CC6000E6FE8 /* Build configuration list for PBXNativeTarget "FlexxRideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005FD7DB1E8E9CC6000E6FE8 /* Debug */,
+				005FD7DC1E8E9CC6000E6FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		005FD7B31E8E9CC6000E6FE8 /* FlexxRide.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				005FD7B41E8E9CC6000E6FE8 /* FlexxRide.xcdatamodel */,
+			);
+			currentVersion = 005FD7B41E8E9CC6000E6FE8 /* FlexxRide.xcdatamodel */;
+			path = FlexxRide.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 005FD7A11E8E9CC6000E6FE8 /* Project object */;
+}
