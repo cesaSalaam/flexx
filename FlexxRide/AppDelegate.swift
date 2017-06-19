@@ -8,18 +8,76 @@
 
 import UIKit
 import CoreData
+import GoogleMaps
+import Firebase
+import FBSDKCoreKit
+import FirebaseAuth
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var customizedLaunchScreenView: UIView?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        GMSServices.provideAPIKey("AIzaSyA0Wn_FrnY9nkuQPYozdpBLK0EQEjmLezY")
+        FIRApp.configure()
+        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        
+        if FIRAuth.auth()?.currentUser != nil {
+            // User is signed in.
+            print("signed in... app del")
+            
+           let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            
+            let vc : ViewController = storyboard.instantiateViewController(withIdentifier: "mainMap")as! ViewController
+            let navController = UINavigationController(rootViewController: vc)
+            
+            
+            self.window?.rootViewController = navController
+            self.window?.makeKeyAndVisible()
+            
+        } else {
+            print("not signed in. Going to signUpScreen.")
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            
+            let vc : startController = storyboard.instantiateViewController(withIdentifier: "startScreen")as! startController
+            let navController = UINavigationController(rootViewController: vc)
+            
+            
+            self.window?.rootViewController = navController
+            self.window?.makeKeyAndVisible()
+        }
+//        if let window = self.window {
+//            self.customizedLaunchScreenView = UIView(frame: window.bounds)
+//            self.customizedLaunchScreenView?.backgroundColor = UIColor.green
+//            
+//            self.window?.makeKeyAndVisible()
+//            self.window?.addSubview(self.customizedLaunchScreenView!)
+//            self.window?.bringSubview(toFront: self.customizedLaunchScreenView!)
+//            UIView.animate(withDuration: 1, delay: 2, options: .curveEaseOut,
+//                                       animations: { () -> Void in
+//                                        self.customizedLaunchScreenView?.alpha = 0 },
+//                                       completion: { _ in
+//                                        self.customizedLaunchScreenView?.removeFromSuperview() })
+//        }
+        
         return true
     }
 
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        let handled = FBSDKApplicationDelegate.sharedInstance().application(app,
+                                                                            open: url,
+                                                                            sourceApplication: options[UIApplicationOpenURLOptionsKey.sourceApplication] as! String?,
+                                                                            annotation: options[UIApplicationOpenURLOptionsKey.annotation])
+        
+        return handled
+    }
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

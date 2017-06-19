@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00211D731EA52C9500F81B22 /* 1920x1276.jpeg.8ace564dc53745efb937cbc7b3a69f64.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00211D721EA52C9500F81B22 /* 1920x1276.jpeg.8ace564dc53745efb937cbc7b3a69f64.jpeg */; };
+		00211D751EA52E0900F81B22 /* PhoneNumberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00211D741EA52E0900F81B22 /* PhoneNumberController.swift */; };
+		0041D8281ECA912B00354240 /* startController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041D8271ECA912B00354240 /* startController.swift */; };
+		0041D82C1EF6A24200354240 /* logInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041D82B1EF6A24200354240 /* logInController.swift */; };
 		005FD7AD1E8E9CC6000E6FE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FD7AC1E8E9CC6000E6FE8 /* AppDelegate.swift */; };
 		005FD7AF1E8E9CC6000E6FE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FD7AE1E8E9CC6000E6FE8 /* ViewController.swift */; };
 		005FD7B21E8E9CC6000E6FE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005FD7B01E8E9CC6000E6FE8 /* Main.storyboard */; };
@@ -15,6 +19,17 @@
 		005FD7BA1E8E9CC6000E6FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005FD7B81E8E9CC6000E6FE8 /* LaunchScreen.storyboard */; };
 		005FD7C51E8E9CC6000E6FE8 /* FlexxRideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FD7C41E8E9CC6000E6FE8 /* FlexxRideTests.swift */; };
 		005FD7D01E8E9CC6000E6FE8 /* FlexxRideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FD7CF1E8E9CC6000E6FE8 /* FlexxRideUITests.swift */; };
+		0065157A1EA699DB00F1B246 /* verifyCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006515791EA699DB00F1B246 /* verifyCodeController.swift */; };
+		0099AA501EA6D3E800CCB8E0 /* userObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099AA4F1EA6D3E800CCB8E0 /* userObject.swift */; };
+		0099AA521EA7AE1700CCB8E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0099AA511EA7AE1700CCB8E0 /* GoogleService-Info.plist */; };
+		00AB61D31EA7C11500B11D84 /* handyThings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AB61D21EA7C11500B11D84 /* handyThings.swift */; };
+		00AB61D51EA844EC00B11D84 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AB61D41EA844EC00B11D84 /* SignUpController.swift */; };
+		00AB61D71EA876D100B11D84 /* signUpPart2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AB61D61EA876D100B11D84 /* signUpPart2Controller.swift */; };
+		00AB61D91EAA51A000B11D84 /* fireServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AB61D81EAA51A000B11D84 /* fireServices.swift */; };
+		00AB61DB1EAADB9100B11D84 /* PasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AB61DA1EAADB9100B11D84 /* PasswordController.swift */; };
+		12CABAD8DE5F6B52790E3B57 /* Pods_FlexxRideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0467E21ED9E1BFBF223C146F /* Pods_FlexxRideTests.framework */; };
+		81E656F104B19F96752C92F2 /* Pods_FlexxRideUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DE67FE8DBD4CD2DAFAB2B0 /* Pods_FlexxRideUITests.framework */; };
+		E6E59FCCB7C18E3514A655DF /* Pods_FlexxRide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62BC3F6E5CF4FAAD1FBCE2F /* Pods_FlexxRide.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00211D721EA52C9500F81B22 /* 1920x1276.jpeg.8ace564dc53745efb937cbc7b3a69f64.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1920x1276.jpeg.8ace564dc53745efb937cbc7b3a69f64.jpeg; sourceTree = "<group>"; };
+		00211D741EA52E0900F81B22 /* PhoneNumberController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberController.swift; sourceTree = "<group>"; };
+		0041D8271ECA912B00354240 /* startController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = startController.swift; sourceTree = "<group>"; };
+		0041D82B1EF6A24200354240 /* logInController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = logInController.swift; sourceTree = "<group>"; };
 		005FD7A91E8E9CC6000E6FE8 /* FlexxRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexxRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		005FD7AC1E8E9CC6000E6FE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		005FD7AE1E8E9CC6000E6FE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +68,23 @@
 		005FD7CB1E8E9CC6000E6FE8 /* FlexxRideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexxRideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		005FD7CF1E8E9CC6000E6FE8 /* FlexxRideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexxRideUITests.swift; sourceTree = "<group>"; };
 		005FD7D11E8E9CC6000E6FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		006515791EA699DB00F1B246 /* verifyCodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = verifyCodeController.swift; sourceTree = "<group>"; };
+		0099AA4F1EA6D3E800CCB8E0 /* userObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userObject.swift; sourceTree = "<group>"; };
+		0099AA511EA7AE1700CCB8E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		00AB61D21EA7C11500B11D84 /* handyThings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = handyThings.swift; sourceTree = "<group>"; };
+		00AB61D41EA844EC00B11D84 /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		00AB61D61EA876D100B11D84 /* signUpPart2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpPart2Controller.swift; sourceTree = "<group>"; };
+		00AB61D81EAA51A000B11D84 /* fireServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fireServices.swift; sourceTree = "<group>"; };
+		00AB61DA1EAADB9100B11D84 /* PasswordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordController.swift; sourceTree = "<group>"; };
+		03DE67FE8DBD4CD2DAFAB2B0 /* Pods_FlexxRideUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexxRideUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0467E21ED9E1BFBF223C146F /* Pods_FlexxRideTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexxRideTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		056277FAA990A9DAAD5BFF0B /* Pods-FlexxRideTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexxRideTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlexxRideTests/Pods-FlexxRideTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1494130B0DE3D1D477961CF7 /* Pods-FlexxRide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexxRide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlexxRide/Pods-FlexxRide.debug.xcconfig"; sourceTree = "<group>"; };
+		1B09177E4B9DFECEC636C78E /* Pods-FlexxRideUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexxRideUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlexxRideUITests/Pods-FlexxRideUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		310955ACF18A6C7AA6B1492E /* Pods-FlexxRideUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexxRideUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlexxRideUITests/Pods-FlexxRideUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B62BC3F6E5CF4FAAD1FBCE2F /* Pods_FlexxRide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexxRide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E78DEB2916989EDD7AB2E5 /* Pods-FlexxRideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexxRideTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlexxRideTests/Pods-FlexxRideTests.release.xcconfig"; sourceTree = "<group>"; };
+		C9BFF2352E0363D31030918B /* Pods-FlexxRide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexxRide.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlexxRide/Pods-FlexxRide.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6E59FCCB7C18E3514A655DF /* Pods_FlexxRide.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12CABAD8DE5F6B52790E3B57 /* Pods_FlexxRideTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +108,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81E656F104B19F96752C92F2 /* Pods_FlexxRideUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		001C7E051EBBAFB70018133A /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0041D8271ECA912B00354240 /* startController.swift */,
+				00211D741EA52E0900F81B22 /* PhoneNumberController.swift */,
+				006515791EA699DB00F1B246 /* verifyCodeController.swift */,
+				0041D82B1EF6A24200354240 /* logInController.swift */,
+				00AB61D41EA844EC00B11D84 /* SignUpController.swift */,
+				00AB61DA1EAADB9100B11D84 /* PasswordController.swift */,
+				00AB61D61EA876D100B11D84 /* signUpPart2Controller.swift */,
+				005FD7AE1E8E9CC6000E6FE8 /* ViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
 		005FD7A01E8E9CC6000E6FE8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +137,8 @@
 				005FD7C31E8E9CC6000E6FE8 /* FlexxRideTests */,
 				005FD7CE1E8E9CC6000E6FE8 /* FlexxRideUITests */,
 				005FD7AA1E8E9CC6000E6FE8 /* Products */,
+				26700070299C07506C0C07DB /* Pods */,
+				65545B9D46235FB5F63E4434 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +155,18 @@
 		005FD7AB1E8E9CC6000E6FE8 /* FlexxRide */ = {
 			isa = PBXGroup;
 			children = (
-				005FD7AC1E8E9CC6000E6FE8 /* AppDelegate.swift */,
-				005FD7AE1E8E9CC6000E6FE8 /* ViewController.swift */,
+				001C7E051EBBAFB70018133A /* controllers */,
 				005FD7B01E8E9CC6000E6FE8 /* Main.storyboard */,
 				005FD7B61E8E9CC6000E6FE8 /* Assets.xcassets */,
 				005FD7B81E8E9CC6000E6FE8 /* LaunchScreen.storyboard */,
+				00211D721EA52C9500F81B22 /* 1920x1276.jpeg.8ace564dc53745efb937cbc7b3a69f64.jpeg */,
 				005FD7BB1E8E9CC6000E6FE8 /* Info.plist */,
+				0099AA511EA7AE1700CCB8E0 /* GoogleService-Info.plist */,
 				005FD7B31E8E9CC6000E6FE8 /* FlexxRide.xcdatamodeld */,
+				0099AA4F1EA6D3E800CCB8E0 /* userObject.swift */,
+				00AB61D21EA7C11500B11D84 /* handyThings.swift */,
+				00AB61D81EAA51A000B11D84 /* fireServices.swift */,
+				005FD7AC1E8E9CC6000E6FE8 /* AppDelegate.swift */,
 			);
 			path = FlexxRide;
 			sourceTree = "<group>";
@@ -128,6 +189,29 @@
 			path = FlexxRideUITests;
 			sourceTree = "<group>";
 		};
+		26700070299C07506C0C07DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1494130B0DE3D1D477961CF7 /* Pods-FlexxRide.debug.xcconfig */,
+				C9BFF2352E0363D31030918B /* Pods-FlexxRide.release.xcconfig */,
+				056277FAA990A9DAAD5BFF0B /* Pods-FlexxRideTests.debug.xcconfig */,
+				C0E78DEB2916989EDD7AB2E5 /* Pods-FlexxRideTests.release.xcconfig */,
+				1B09177E4B9DFECEC636C78E /* Pods-FlexxRideUITests.debug.xcconfig */,
+				310955ACF18A6C7AA6B1492E /* Pods-FlexxRideUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65545B9D46235FB5F63E4434 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B62BC3F6E5CF4FAAD1FBCE2F /* Pods_FlexxRide.framework */,
+				0467E21ED9E1BFBF223C146F /* Pods_FlexxRideTests.framework */,
+				03DE67FE8DBD4CD2DAFAB2B0 /* Pods_FlexxRideUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 005FD7D41E8E9CC6000E6FE8 /* Build configuration list for PBXNativeTarget "FlexxRide" */;
 			buildPhases = (
+				11628127799CB66D24468237 /* [CP] Check Pods Manifest.lock */,
 				005FD7A51E8E9CC6000E6FE8 /* Sources */,
 				005FD7A61E8E9CC6000E6FE8 /* Frameworks */,
 				005FD7A71E8E9CC6000E6FE8 /* Resources */,
+				20E41C019B6B297F9AE349B4 /* [CP] Embed Pods Frameworks */,
+				B72A59E676CB8B06C8756D05 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 005FD7D71E8E9CC6000E6FE8 /* Build configuration list for PBXNativeTarget "FlexxRideTests" */;
 			buildPhases = (
+				6572781D90B8CB6736688294 /* [CP] Check Pods Manifest.lock */,
 				005FD7BC1E8E9CC6000E6FE8 /* Sources */,
 				005FD7BD1E8E9CC6000E6FE8 /* Frameworks */,
 				005FD7BE1E8E9CC6000E6FE8 /* Resources */,
+				38D1AC12B4055134F49238B8 /* [CP] Embed Pods Frameworks */,
+				9E2042EF79166A926DFCB38E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 005FD7DA1E8E9CC6000E6FE8 /* Build configuration list for PBXNativeTarget "FlexxRideUITests" */;
 			buildPhases = (
+				52F3C78126A158065A35B88A /* [CP] Check Pods Manifest.lock */,
 				005FD7C71E8E9CC6000E6FE8 /* Sources */,
 				005FD7C81E8E9CC6000E6FE8 /* Frameworks */,
 				005FD7C91E8E9CC6000E6FE8 /* Resources */,
+				00AF9C13645F31507563E504 /* [CP] Embed Pods Frameworks */,
+				C86F59EDDA78D2CFA9CF1933 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +332,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				005FD7BA1E8E9CC6000E6FE8 /* LaunchScreen.storyboard in Resources */,
+				0099AA521EA7AE1700CCB8E0 /* GoogleService-Info.plist in Resources */,
+				00211D731EA52C9500F81B22 /* 1920x1276.jpeg.8ace564dc53745efb937cbc7b3a69f64.jpeg in Resources */,
 				005FD7B71E8E9CC6000E6FE8 /* Assets.xcassets in Resources */,
 				005FD7B21E8E9CC6000E6FE8 /* Main.storyboard in Resources */,
 			);
@@ -260,14 +355,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00AF9C13645F31507563E504 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlexxRideUITests/Pods-FlexxRideUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11628127799CB66D24468237 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		20E41C019B6B297F9AE349B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlexxRide/Pods-FlexxRide-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38D1AC12B4055134F49238B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlexxRideTests/Pods-FlexxRideTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52F3C78126A158065A35B88A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6572781D90B8CB6736688294 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E2042EF79166A926DFCB38E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlexxRideTests/Pods-FlexxRideTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B72A59E676CB8B06C8756D05 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlexxRide/Pods-FlexxRide-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C86F59EDDA78D2CFA9CF1933 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlexxRideUITests/Pods-FlexxRideUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		005FD7A51E8E9CC6000E6FE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0041D82C1EF6A24200354240 /* logInController.swift in Sources */,
+				00AB61D71EA876D100B11D84 /* signUpPart2Controller.swift in Sources */,
+				00AB61D31EA7C11500B11D84 /* handyThings.swift in Sources */,
 				005FD7AF1E8E9CC6000E6FE8 /* ViewController.swift in Sources */,
+				00AB61D91EAA51A000B11D84 /* fireServices.swift in Sources */,
+				00211D751EA52E0900F81B22 /* PhoneNumberController.swift in Sources */,
+				00AB61D51EA844EC00B11D84 /* SignUpController.swift in Sources */,
 				005FD7AD1E8E9CC6000E6FE8 /* AppDelegate.swift in Sources */,
+				0099AA501EA6D3E800CCB8E0 /* userObject.swift in Sources */,
 				005FD7B51E8E9CC6000E6FE8 /* FlexxRide.xcdatamodeld in Sources */,
+				0041D8281ECA912B00354240 /* startController.swift in Sources */,
+				00AB61DB1EAADB9100B11D84 /* PasswordController.swift in Sources */,
+				0065157A1EA699DB00F1B246 /* verifyCodeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +660,7 @@
 		};
 		005FD7D51E8E9CC6000E6FE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1494130B0DE3D1D477961CF7 /* Pods-FlexxRide.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y3ESD59NKS;
@@ -430,6 +674,7 @@
 		};
 		005FD7D61E8E9CC6000E6FE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9BFF2352E0363D31030918B /* Pods-FlexxRide.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y3ESD59NKS;
@@ -443,6 +688,7 @@
 		};
 		005FD7D81E8E9CC6000E6FE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 056277FAA990A9DAAD5BFF0B /* Pods-FlexxRideTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +704,7 @@
 		};
 		005FD7D91E8E9CC6000E6FE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0E78DEB2916989EDD7AB2E5 /* Pods-FlexxRideTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +720,7 @@
 		};
 		005FD7DB1E8E9CC6000E6FE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B09177E4B9DFECEC636C78E /* Pods-FlexxRideUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = Y3ESD59NKS;
@@ -487,6 +735,7 @@
 		};
 		005FD7DC1E8E9CC6000E6FE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 310955ACF18A6C7AA6B1492E /* Pods-FlexxRideUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = Y3ESD59NKS;
@@ -518,6 +767,7 @@
 				005FD7D61E8E9CC6000E6FE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		005FD7D71E8E9CC6000E6FE8 /* Build configuration list for PBXNativeTarget "FlexxRideTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +776,7 @@
 				005FD7D91E8E9CC6000E6FE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		005FD7DA1E8E9CC6000E6FE8 /* Build configuration list for PBXNativeTarget "FlexxRideUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +785,7 @@
 				005FD7DC1E8E9CC6000E6FE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
